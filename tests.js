@@ -30,7 +30,12 @@ describe('helloWorld', function() {
 describe("sayHello", function(){
     it("should be a defined function", function(){
         expect(typeof sayHello).toBe("function");
-
+    });
+    it('should return Hello Jane!', function() {
+        expect(sayHello("Jane")).toBe("Hello, Jane!");
+    });
+    it('should return Hello Alex!', function() {
+        expect(sayHello("Alex")).toBe("Hello, Alex!");
     });
 });
 
