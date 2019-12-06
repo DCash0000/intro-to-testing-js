@@ -29,3 +29,17 @@ const sayHello = function(input){
     // }
 };
 
+
+const isFive = function(input) {
+    if (input === 5 ||  input === "5") {
+        return true;
+    } else {
+        return false;
+    }
+};
+
+
+
+
+
+
