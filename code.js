@@ -12,17 +12,15 @@ const helloWorld = function (){
 
 
 const sayHello = function(input){
-    if(input === "Alex"){
-        return "Hello, Alex!";
-    }else if(input === "Pat")  {
-        return "Hello, Pat!"
-
-    }else{
-        return "Hello, Jane!"
-    }
-
-
-
+    return "Hello, " + input + "!";
+    // if(input === "Alex"){
+    //     return "Hello, Alex!";
+    // }else if(input === "Pat")  {
+    //     return "Hello, Pat!"
+    //
+    // }else{
+    //     return "Hello, Jane!"
+    // }
 };
 
 const sayGoodBye = function(){
