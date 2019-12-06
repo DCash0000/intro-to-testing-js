@@ -12,7 +12,7 @@ const helloWorld = function (){
 
 
 const sayHello = function(){
-
+    return "";
 };
 
 const sayGoodBye = function(){

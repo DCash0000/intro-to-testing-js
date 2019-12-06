@@ -26,14 +26,19 @@ describe('helloWorld', function() {
     });
 });
 
+
 describe("sayHello", function(){
     it("should be a defined function", function(){
         expect(typeof sayHello).toBe("function");
+
     });
 });
+
 
 describe("sayGoodBye", function(){
     it("should be a defined function", function(){
         expect(typeof sayGoodBye).toBe("function");
     });
 });
+
+
