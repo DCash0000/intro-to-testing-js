@@ -51,10 +51,5 @@ describe("sayHello", function(){
 });
 
 
-describe("sayGoodBye", function(){
-    it("should be a defined function", function(){
-        expect(typeof sayGoodBye).toBe("function");
-    });
-});
 
 

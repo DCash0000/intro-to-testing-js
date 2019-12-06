@@ -29,6 +29,3 @@ const sayHello = function(input){
     // }
 };
 
-const sayGoodBye = function(){
-
-};
